@@ -40,3 +40,17 @@ C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileI
 C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.pdb
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\bin\Debug\FifaApi.exe.config
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\bin\Debug\FifaApi.exe
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\bin\Debug\FifaApi.pdb
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csprojAssemblyReference.cache
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.Form1.resources
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.Properties.Resources.resources
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.GenerateResource.cache
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileInputs.cache
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.exe
+C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.pdb
