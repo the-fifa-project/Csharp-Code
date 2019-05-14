@@ -26,7 +26,7 @@ namespace FifaApi
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
 
-            dataJson = downloader.DownloadString("http://localhost/project-fifa/test-api-v2?id=" + input.ToString());
+            dataJson = downloader.DownloadString("http://localhost/project-fifa/FifaApi?id=" + input.ToString());
 
             // Deserialize the json to a pokemon object
             Data data = JsonConvert.DeserializeObject<Data>(dataJson);
