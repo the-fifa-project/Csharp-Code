@@ -17,6 +17,7 @@ namespace FifaApi
         {
             InitializeComponent();
         }
+        int hi;
 
         private void getDataButton_Click(object sender, EventArgs e)
         {
