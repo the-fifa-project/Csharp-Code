@@ -54,3 +54,17 @@ C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.cspro
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.pdb
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csprojAssemblyReference.cache
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Form1.resources
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Properties.Resources.resources
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.GenerateResource.cache
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileInputs.cache
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb

@@ -40,6 +40,7 @@ C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileI
 C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\Donit\Desktop\c# api fifa\FifaApi\obj\Debug\FifaApi.pdb
+<<<<<<< Updated upstream
 D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\FifaApi.exe.config
 D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\FifaApi.exe
 D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\FifaApi.pdb
@@ -54,3 +55,19 @@ D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.csproj.CoreCompi
 D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.exe
 D:\projectfifa\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.pdb
+=======
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\FifaApi.exe.config
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\FifaApi.exe
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\FifaApi.pdb
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.csprojAssemblyReference.cache
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.Form1.resources
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.Properties.Resources.resources
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.csproj.GenerateResource.cache
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileInputs.cache
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.exe
+C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V2\FifaApi\obj\Debug\FifaApi.pdb
+>>>>>>> Stashed changes

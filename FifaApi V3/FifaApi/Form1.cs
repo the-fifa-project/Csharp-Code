@@ -26,9 +26,9 @@ namespace FifaApi
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
 
-            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/api/?id=" + input.ToString());
+            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/Php-code/api?id=" + input.ToString());
 
-            
+
             Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);
             
             nameLabel.Text = "Team name: " + data[0].name;
