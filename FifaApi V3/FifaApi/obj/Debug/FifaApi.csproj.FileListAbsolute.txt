@@ -58,7 +58,6 @@ C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csha
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.dll
-C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.xml
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csprojAssemblyReference.cache
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Form1.resources
@@ -68,3 +67,4 @@ C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csha
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
+C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.AddUser.resources

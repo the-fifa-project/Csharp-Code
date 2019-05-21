@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace FifaApi
 {
@@ -16,6 +18,11 @@ namespace FifaApi
         public Form1()
         {
             InitializeComponent();
+        }
+        
+        public void Form1_Load(object sender, EventArgs e)
+        {
+            readJson();
         }
 
         private void getDataButton_Click(object sender, EventArgs e)
@@ -30,7 +37,7 @@ namespace FifaApi
 
 
             Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);
-            
+
             nameLabel.Text = "Team name: " + data[0].name;
             idLabel.Text = "" + data[0].id;
             label6.Text = "" + data[0].goals;
@@ -38,19 +45,24 @@ namespace FifaApi
             label8.Text = "" + data[0].loses;
         }
 
-        private void idLabel_Click(object sender, EventArgs e)
+        public void readJson()
         {
+            using (StreamReader r = new StreamReader(@"C:\Json_save\Savedata.json"))
+            {
+                var json = r.ReadToEnd();
+                var model = JsonConvert.DeserializeObject<List<User>>(json);
 
+                foreach (var item in model)
+                {
+                    MessageBox.Show(item.Name);
+                }
+            }
         }
 
-        private void nameLabel_Click(object sender, EventArgs e)
+        private void addUserButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
+            AddUser form = new AddUser();
+            form.ShowDialog();
         }
     }
 }

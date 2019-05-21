@@ -48,7 +48,7 @@
             // getDataButton
             // 
             this.getDataButton.Location = new System.Drawing.Point(88, 26);
-            this.getDataButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.getDataButton.Margin = new System.Windows.Forms.Padding(2);
             this.getDataButton.Name = "getDataButton";
             this.getDataButton.Size = new System.Drawing.Size(88, 29);
             this.getDataButton.TabIndex = 0;
@@ -66,7 +66,6 @@
             this.nameLabel.Size = new System.Drawing.Size(52, 17);
             this.nameLabel.TabIndex = 2;
             this.nameLabel.Text = "label1";
-            this.nameLabel.Click += new System.EventHandler(this.nameLabel_Click);
             // 
             // idLabel
             // 
@@ -77,13 +76,12 @@
             this.idLabel.Size = new System.Drawing.Size(35, 13);
             this.idLabel.TabIndex = 3;
             this.idLabel.Text = "label2";
-            this.idLabel.Click += new System.EventHandler(this.idLabel_Click);
             // 
             // listBox
             // 
             this.listBox.FormattingEnabled = true;
             this.listBox.Location = new System.Drawing.Point(66, 110);
-            this.listBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox.Margin = new System.Windows.Forms.Padding(2);
             this.listBox.Name = "listBox";
             this.listBox.Size = new System.Drawing.Size(173, 30);
             this.listBox.TabIndex = 7;
@@ -91,7 +89,7 @@
             // inputNumber
             // 
             this.inputNumber.Location = new System.Drawing.Point(9, 32);
-            this.inputNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.inputNumber.Margin = new System.Windows.Forms.Padding(2);
             this.inputNumber.Maximum = new decimal(new int[] {
             4,
             0,
@@ -170,7 +168,6 @@
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 17;
             this.label6.Text = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -200,6 +197,7 @@
             this.addUserButton.TabIndex = 20;
             this.addUserButton.Text = "Add user";
             this.addUserButton.UseVisualStyleBackColor = true;
+            this.addUserButton.Click += new System.EventHandler(this.addUserButton_Click);
             // 
             // Form1
             // 
@@ -220,9 +218,10 @@
             this.Controls.Add(this.idLabel);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.getDataButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "FIFA GAMBLE APPLICATION";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
