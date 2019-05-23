@@ -28,8 +28,8 @@ namespace FifaApi
             // Bron: https://stackoverflow.com/a/4758334
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
-
-            dataJson = downloader.DownloadString("http://localhost/Php-code/api/");
+       
+            dataJson = downloader.DownloadString("http://localhost/fifa-project/Php-code/api/index.php?apikey=$2VAo@5JGt8%");
             MessageBox.Show("http://localhost/Php-code/api/" + input.ToString());
             Debug.WriteLine(dataJson);
             Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);

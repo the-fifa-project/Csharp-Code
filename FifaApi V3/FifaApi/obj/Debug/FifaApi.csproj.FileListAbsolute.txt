@@ -54,7 +54,7 @@ C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.cspro
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.pdb
-<<<<<<< HEAD
+
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
@@ -69,7 +69,7 @@ D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CoreCompi
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
-=======
+
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
@@ -84,4 +84,18 @@ C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csha
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
->>>>>>> master
+
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.dll
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.pdb
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.xml
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csprojAssemblyReference.cache
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Form1.resources
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Properties.Resources.resources
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.GenerateResource.cache
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileInputs.cache
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
+D:\College Backup\AMO\Projecten\Periode 4_Project FIFA\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
