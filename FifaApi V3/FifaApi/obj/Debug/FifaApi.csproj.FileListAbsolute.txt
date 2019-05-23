@@ -54,3 +54,17 @@ C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.cspro
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.pdb
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.dll
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.pdb
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\Newtonsoft.Json.xml
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csprojAssemblyReference.cache
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Form1.resources
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.Properties.Resources.resources
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.GenerateResource.cache
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CoreCompileInputs.cache
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
+D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb

@@ -11,6 +11,8 @@ namespace FifaApi
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+        public static Fifa fifa = new Fifa();
         [STAThread]
         static void Main()
         {
