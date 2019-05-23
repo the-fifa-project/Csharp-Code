@@ -16,6 +16,16 @@ namespace FifaApi
         public Form1()
         {
             InitializeComponent();
+
+            System.Net.WebClient downloader = new System.Net.WebClient();
+            string dataJson;
+            dataJson = downloader.DownloadString("http://localhost/php-code/api/");
+            Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);
+            for (int i = 0; i < data.Length; i++)
+            {
+                dataJson = downloader.DownloadString("http://localhost/php-code/api/?id=" + i);
+                teamNamesList.Items.Add(data[i].name);
+            }
         }
 
         private void getDataButton_Click(object sender, EventArgs e)
@@ -26,16 +36,16 @@ namespace FifaApi
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
 
-            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/api/?id=" + input.ToString());
+            dataJson = downloader.DownloadString("http://localhost/php-code/api/?id=" + input.ToString());
 
             
             Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);
             
             nameLabel.Text = "Team name: " + data[0].name;
             idLabel.Text = "" + data[0].id;
-            label6.Text = "" + data[0].goals;
-            label7.Text = "" + data[0].wins;
-            label8.Text = "" + data[0].loses;
+            goalsLabel.Text = "" + data[0].goals;
+            winsLabel.Text = "" + data[0].wins;
+            lossesLabel.Text = "" + data[0].loses;
         }
 
         private void idLabel_Click(object sender, EventArgs e)

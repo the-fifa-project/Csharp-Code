@@ -38,9 +38,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.goalsLabel = new System.Windows.Forms.Label();
+            this.winsLabel = new System.Windows.Forms.Label();
+            this.lossesLabel = new System.Windows.Forms.Label();
+            this.teamNamesList = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,11 +70,10 @@
             // idLabel
             // 
             this.idLabel.AutoSize = true;
-            this.idLabel.Location = new System.Drawing.Point(445, 32);
+            this.idLabel.Location = new System.Drawing.Point(302, 116);
             this.idLabel.Name = "idLabel";
-            this.idLabel.Size = new System.Drawing.Size(46, 17);
+            this.idLabel.Size = new System.Drawing.Size(0, 17);
             this.idLabel.TabIndex = 3;
-            this.idLabel.Text = "label2";
             this.idLabel.Click += new System.EventHandler(this.idLabel_Click);
             // 
             // listBox
@@ -138,55 +139,72 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(9, 220);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 17);
+            this.label4.Size = new System.Drawing.Size(43, 17);
             this.label4.TabIndex = 15;
-            this.label4.Text = "wins:";
+            this.label4.Text = "Wins:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 262);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 17);
+            this.label5.Size = new System.Drawing.Size(57, 17);
             this.label5.TabIndex = 16;
-            this.label5.Text = "loses:";
+            this.label5.Text = "Losses:";
+            // 
+            // goalsLabel
+            // 
+            this.goalsLabel.AutoSize = true;
+            this.goalsLabel.Location = new System.Drawing.Point(210, 178);
+            this.goalsLabel.Name = "goalsLabel";
+            this.goalsLabel.Size = new System.Drawing.Size(0, 17);
+            this.goalsLabel.TabIndex = 17;
+            this.goalsLabel.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // winsLabel
+            // 
+            this.winsLabel.AutoSize = true;
+            this.winsLabel.Location = new System.Drawing.Point(210, 220);
+            this.winsLabel.Name = "winsLabel";
+            this.winsLabel.Size = new System.Drawing.Size(0, 17);
+            this.winsLabel.TabIndex = 18;
+            // 
+            // lossesLabel
+            // 
+            this.lossesLabel.AutoSize = true;
+            this.lossesLabel.Location = new System.Drawing.Point(210, 262);
+            this.lossesLabel.Name = "lossesLabel";
+            this.lossesLabel.Size = new System.Drawing.Size(0, 17);
+            this.lossesLabel.TabIndex = 19;
+            // 
+            // teamNamesList
+            // 
+            this.teamNamesList.FormattingEnabled = true;
+            this.teamNamesList.ItemHeight = 16;
+            this.teamNamesList.Location = new System.Drawing.Point(371, 40);
+            this.teamNamesList.Name = "teamNamesList";
+            this.teamNamesList.Size = new System.Drawing.Size(120, 132);
+            this.teamNamesList.TabIndex = 20;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(210, 178);
+            this.label6.Location = new System.Drawing.Point(380, 17);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 17);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(210, 220);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 17);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(210, 262);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 17);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "label8";
+            this.label6.Size = new System.Drawing.Size(88, 17);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "List of teams";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 310);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.teamNamesList);
+            this.Controls.Add(this.lossesLabel);
+            this.Controls.Add(this.winsLabel);
+            this.Controls.Add(this.goalsLabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -217,9 +235,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label goalsLabel;
+        private System.Windows.Forms.Label winsLabel;
+        private System.Windows.Forms.Label lossesLabel;
+        private System.Windows.Forms.ListBox teamNamesList;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
     }
 }
 
