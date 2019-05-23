@@ -19,13 +19,19 @@ namespace FifaApi
         {
             InitializeComponent();
         }
-        
+
         public void Form1_Load(object sender, EventArgs e)
         {
+            ReloadMatches();
             readJson();
         }
 
         private void getDataButton_Click(object sender, EventArgs e)
+        {
+            ReloadMatches();
+        }
+
+        public void ReloadMatches()
         {
             listBox.Items.Clear();
             int input = (int)inputNumber.Value;
@@ -33,7 +39,7 @@ namespace FifaApi
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
 
-            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/Php-code/api?id=" + input.ToString());
+            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/Php-code/api/index.php?apikey=$2VAo@5JGt8%");
 
 
             Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);
@@ -43,18 +49,37 @@ namespace FifaApi
             label6.Text = "" + data[0].goals;
             label7.Text = "" + data[0].wins;
             label8.Text = "" + data[0].loses;
+
+            allMatchesListBox.Items.Clear();
+            foreach (var team in data)
+            {
+                allMatchesListBox.Items.Add(team.name);
+            }
         }
 
         public void readJson()
         {
-            using (StreamReader r = new StreamReader(@"C:\Json_save\Savedata.json"))
+            using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
             {
-                var json = r.ReadToEnd();
-                var model = JsonConvert.DeserializeObject<List<User>>(json);
+                var json = userReader.ReadToEnd();
+                var users = JsonConvert.DeserializeObject<List<User>>(json);
 
-                foreach (var item in model)
+                gambleUserComboBox.Items.Clear();
+                foreach (var user in users)
                 {
-                    MessageBox.Show(item.Name);
+                    gambleUserComboBox.Items.Add(user.Name);
+                }
+            }
+
+            using (StreamReader matchesReader = new StreamReader(@"C:\xampp\htdocs\the_fifa_project\Php-code\includes\compititions.json"))
+            {
+                var json = matchesReader.ReadToEnd();
+                var matches = JsonConvert.DeserializeObject<List<matches>>(json);
+
+                allMatchesListBox.Items.Clear();
+                foreach (var match in matches)
+                {
+                    allMatchesListBox.Items.Add(match.teamOneId + " vs " + match.teamTwoId);
                 }
             }
         }
@@ -64,5 +89,25 @@ namespace FifaApi
             AddUser form = new AddUser();
             form.ShowDialog();
         }
+
+        private void gambleUserComboBox_Click(object sender, EventArgs e)
+        {
+            readJson();
+        }
+
+        private void gambleUserComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
+            {
+                var json = userReader.ReadToEnd();
+                var users = JsonConvert.DeserializeObject<List<User>>(json);
+
+                if (users.Contains(gambleUserComboBox.SelectedItem))
+                {
+                    MessageBox.Show(gambleUserComboBox.SelectedItem.ToString());
+                }
+            }
+        }
     }
 }
+

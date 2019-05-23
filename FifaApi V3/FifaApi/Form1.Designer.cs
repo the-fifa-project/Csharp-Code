@@ -42,7 +42,18 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.addUserButton = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.allMatchesListBox = new System.Windows.Forms.ListBox();
+            this.gambleUserComboBox = new System.Windows.Forms.ComboBox();
+            this.gamlingAmmountNumUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.gambleButton = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.currencyLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gamlingAmmountNumUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // getDataButton
@@ -199,11 +210,116 @@
             this.addUserButton.UseVisualStyleBackColor = true;
             this.addUserButton.Click += new System.EventHandler(this.addUserButton_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(431, 14);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(81, 17);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Gambling:";
+            // 
+            // allMatchesListBox
+            // 
+            this.allMatchesListBox.FormattingEnabled = true;
+            this.allMatchesListBox.Location = new System.Drawing.Point(542, 63);
+            this.allMatchesListBox.Name = "allMatchesListBox";
+            this.allMatchesListBox.Size = new System.Drawing.Size(140, 173);
+            this.allMatchesListBox.TabIndex = 22;
+            // 
+            // gambleUserComboBox
+            // 
+            this.gambleUserComboBox.FormattingEnabled = true;
+            this.gambleUserComboBox.Location = new System.Drawing.Point(391, 145);
+            this.gambleUserComboBox.Name = "gambleUserComboBox";
+            this.gambleUserComboBox.Size = new System.Drawing.Size(121, 21);
+            this.gambleUserComboBox.TabIndex = 23;
+            this.gambleUserComboBox.SelectedIndexChanged += new System.EventHandler(this.gambleUserComboBox_SelectedIndexChanged);
+            this.gambleUserComboBox.Click += new System.EventHandler(this.gambleUserComboBox_Click);
+            // 
+            // gamlingAmmountNumUpDown
+            // 
+            this.gamlingAmmountNumUpDown.Location = new System.Drawing.Point(394, 177);
+            this.gamlingAmmountNumUpDown.Name = "gamlingAmmountNumUpDown";
+            this.gamlingAmmountNumUpDown.Size = new System.Drawing.Size(120, 20);
+            this.gamlingAmmountNumUpDown.TabIndex = 24;
+            this.gamlingAmmountNumUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(539, 42);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(40, 13);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "Match:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(336, 153);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(49, 13);
+            this.label11.TabIndex = 26;
+            this.label11.Text = "Gambler:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(334, 179);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(54, 13);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "Ammount:";
+            // 
+            // gambleButton
+            // 
+            this.gambleButton.Location = new System.Drawing.Point(391, 203);
+            this.gambleButton.Name = "gambleButton";
+            this.gambleButton.Size = new System.Drawing.Size(123, 33);
+            this.gambleButton.TabIndex = 28;
+            this.gambleButton.Text = "Gamble!";
+            this.gambleButton.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(388, 42);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(135, 13);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "Currency selected gambler:";
+            // 
+            // currencyLabel
+            // 
+            this.currencyLabel.AutoSize = true;
+            this.currencyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currencyLabel.Location = new System.Drawing.Point(388, 63);
+            this.currencyLabel.Name = "currencyLabel";
+            this.currencyLabel.Size = new System.Drawing.Size(14, 13);
+            this.currencyLabel.TabIndex = 30;
+            this.currencyLabel.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(377, 252);
+            this.ClientSize = new System.Drawing.Size(694, 252);
+            this.Controls.Add(this.currencyLabel);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.gambleButton);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.gamlingAmmountNumUpDown);
+            this.Controls.Add(this.gambleUserComboBox);
+            this.Controls.Add(this.allMatchesListBox);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.addUserButton);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -223,6 +339,7 @@
             this.Text = "FIFA GAMBLE APPLICATION";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gamlingAmmountNumUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,6 +361,16 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button addUserButton;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ListBox allMatchesListBox;
+        private System.Windows.Forms.ComboBox gambleUserComboBox;
+        private System.Windows.Forms.NumericUpDown gamlingAmmountNumUpDown;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button gambleButton;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label currencyLabel;
     }
 }
 
