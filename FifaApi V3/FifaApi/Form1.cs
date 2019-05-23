@@ -51,11 +51,6 @@ namespace FifaApi
             {
                 var json = r.ReadToEnd();
                 var model = JsonConvert.DeserializeObject<List<User>>(json);
-
-                foreach (var item in model)
-                {
-                    MessageBox.Show(item.Name);
-                }
             }
         }
 
