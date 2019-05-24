@@ -20,8 +20,6 @@ namespace FifaApi
             InitializeComponent();
         }
 
-        List<User> _data = new List<User>();
-
 
         private void AddUser_Load(object sender, EventArgs e)
         {
@@ -30,37 +28,52 @@ namespace FifaApi
 
         public void readJson()
         {
+            //haalt de json op en stopt het in de user class
             using (StreamReader r = new StreamReader(@"C:\Json_save\Savedata.json"))
             {
                 var jsonString = r.ReadToEnd();
-                var model = JsonConvert.DeserializeObject<List<User>>(jsonString);
+                var users = JsonConvert.DeserializeObject<List<User>>(jsonString);
             }
         }
 
         private void createUserButton_Click(object sender, EventArgs e)
-        {
+        { 
             try
             {
-                readJson();
-                string fileName = Path.Combine(@"C:\Json_save\Savedata.json");
-                string allJson = File.ReadAllText(fileName);
-                var initialJson = allJson;
+                if (nameTextBox.Text != "")
+                {
+                    //bereid de json voor om op te slaan als het veld niet leeg is
+                    readJson();
+                    //haalt het json bestand op
+                    string fileName = Path.Combine(@"C:\Json_save\Savedata.json");
+                    //leest al de json
+                    string allJson = File.ReadAllText(fileName);
+                    //slaat de json op in een variabele
+                    var initialJson = allJson;
 
-                var array = JArray.Parse(initialJson);
+                    //parsed de json
+                    var array = JArray.Parse(initialJson);
 
-                var itemToAdd = new JObject();
-                itemToAdd["currency"] = 100;
-                itemToAdd["name"] = nameTextBox.Text;
-                array.Add(itemToAdd);
+                    //maakt een nieuw object met daarin alles wat in de json moet
+                    var itemToAdd = new JObject();
+                    itemToAdd["currency"] = 100;
+                    itemToAdd["name"] = nameTextBox.Text;
+                    //stopt het object in de array met al bestaande json bestanden
+                    array.Add(itemToAdd);
 
-                var jsonToOutput = JsonConvert.SerializeObject(array, Formatting.Indented);
+                    //serialized de array
+                    var jsonToOutput = JsonConvert.SerializeObject(array, Formatting.Indented);
+                    string json = JsonConvert.SerializeObject(jsonToOutput.ToArray());
 
-                string json = JsonConvert.SerializeObject(jsonToOutput.ToArray());
-
-                //write string to file
-                File.WriteAllText(@"C:\Json_save\Savedata.json", jsonToOutput);
-                MessageBox.Show("Succesfully created account!");
-                Close();
+                    //zet de json string in savedata.json
+                    File.WriteAllText(@"C:\Json_save\Savedata.json", jsonToOutput);
+                    MessageBox.Show("Succesfully created account!");
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("No username detected");
+                }
             }
 
             catch

@@ -22,16 +22,18 @@ namespace FifaApi
 
         public void Form1_Load(object sender, EventArgs e)
         {
-            ReloadMatches();
+            reloadTeams();
+            reloadMatches();
             readJson();
         }
 
         private void getDataButton_Click(object sender, EventArgs e)
         {
-            ReloadMatches();
+            reloadTeams();
+            reloadMatches();
         }
 
-        public void ReloadMatches()
+        public void reloadTeams()
         {
             listBox.Items.Clear();
             int input = (int)inputNumber.Value;
@@ -57,35 +59,41 @@ namespace FifaApi
             }
         }
 
-        public void readJson()
+        public void reloadMatches()
         {
-            using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
-            {
-                var json = userReader.ReadToEnd();
-                var users = JsonConvert.DeserializeObject<List<User>>(json);
+            System.Net.WebClient downloader = new System.Net.WebClient();
+            string matchDataJson = downloader.DownloadString("http://localhost/the_fifa_project/Php-code/api/index.php?apikey=Rz7^8p2%4VYk");
 
-                gambleUserComboBox.Items.Clear();
-                foreach (var user in users)
-                {
-                    gambleUserComboBox.Items.Add(user.Name);
-                }
-            }
-
-            using (StreamReader matchesReader = new StreamReader(@"C:\xampp\htdocs\the_fifa_project\Php-code\includes\compititions.json"))
-            {
-                var json = matchesReader.ReadToEnd();
-                var matches = JsonConvert.DeserializeObject<List<matches>>(json);
+            matches[] matches = JsonConvert.DeserializeObject<matches[]>(matchDataJson);
 
                 allMatchesListBox.Items.Clear();
                 foreach (var match in matches)
                 {
-                    allMatchesListBox.Items.Add(match.teamOneId + " vs " + match.teamTwoId);
+                    allMatchesListBox.Items.Add(match.team1 + " vs " + match.team2);
                 }
-            }
+            
         }
+
+        public void readJson()
+        {
+                //leest de users uit een json en zet ze in een combobox
+                using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
+                {
+                    var json = userReader.ReadToEnd();
+                    var users = JsonConvert.DeserializeObject<List<User>>(json);
+
+                //zet al de users in een combobox
+                    gambleUserComboBox.Items.Clear();
+                    foreach (var user in users)
+                    {
+                        gambleUserComboBox.Items.Add(user.Name);
+                    }
+                }
+           }
 
         private void addUserButton_Click(object sender, EventArgs e)
         {
+            //opent een nieuwe form
             AddUser form = new AddUser();
             form.ShowDialog();
         }
@@ -95,16 +103,119 @@ namespace FifaApi
             readJson();
         }
 
-        private void gambleUserComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        public void reloadCurrencyLabel()
         {
+            //haalt de json op en stopt het in de user class
             using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
             {
                 var json = userReader.ReadToEnd();
                 var users = JsonConvert.DeserializeObject<List<User>>(json);
 
-                if (users.Contains(gambleUserComboBox.SelectedItem))
+                foreach (var user in users)
                 {
-                    MessageBox.Show(gambleUserComboBox.SelectedItem.ToString());
+                    //check hoeveel currency de user heeft
+                    for (int i = 0; i < users.Count; i++)
+                    {
+                        if (users[i].Name == gambleUserComboBox.SelectedItem.ToString())
+                        {
+                            //zet de currency van de geselecteerde user in de currency label
+                            currencyLabel.Text = users[i].Currency.ToString();
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+
+        private void gambleUserComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            reloadCurrencyLabel();
+        }
+
+
+        public void bet()
+        {
+            //haalt de json op en stopt het in de user class
+            using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
+            {
+                var json = userReader.ReadToEnd();
+                var users = JsonConvert.DeserializeObject<List<User>>(json);
+
+                foreach (var user in users)
+                {
+                    try
+                    {
+                        //check hoeveel currency de user heeft
+                        for (int i = 0; i < users.Count; i++)
+                        {
+                            if (users[i].Name == gambleUserComboBox.SelectedItem.ToString())
+                            {
+                                //als de user niet genoeg geld heeft, meld dat dan
+                                if (users[i].Currency < (int)gamblingAmmountNumUpDown.Value)
+                                {
+                                    MessageBox.Show("You dont have enough money");
+                                    return;
+                                }
+                                //als de user wel genoeg geld heeft haal het geld van zijn balance af
+                                else
+                                {
+                                    string bettor = users[i].Name;
+
+                                    users[i].Currency -= (int)gamblingAmmountNumUpDown.Value;
+                                    int uCurrency = users[i].Currency;
+                                    currencyLabel.Text = uCurrency.ToString();
+                                    MessageBox.Show(bettor + " just betted " + gamblingAmmountNumUpDown.Value + " on team " + betOnTeam.Value);
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Please select a user");
+                        return;
+                    }
+                }
+            }
+        }
+
+        private void gambleButton_Click_1(object sender, EventArgs e)
+        {
+            bet();
+        }
+
+        private void reloadMatchesButton_Click(object sender, EventArgs e)
+        {
+            reloadTeams();
+            reloadMatches();
+        }
+
+        private void listBox_Click(object sender, EventArgs e)
+        {
+            //haalt de json op en stopt het in de user class
+            using (StreamReader userReader = new StreamReader(@"C:\Json_save\Savedata.json"))
+            {
+                var json = userReader.ReadToEnd();
+                var users = JsonConvert.DeserializeObject<List<User>>(json);
+
+                foreach (var user in users)
+                {
+
+                    //check hoeveel currency de user heeft
+                    for (int i = 0; i < users.Count; i++)
+                    {
+                        if (users[i].Name == gambleUserComboBox.SelectedItem.ToString())
+                        {
+                            //voegt 100 toe aan de balance van de user(het cheatcode systeem)
+                                string bettor = users[i].Name;
+
+                                users[i].Currency += 100;
+                                int uCurrency = users[i].Currency;
+                                currencyLabel.Text = uCurrency.ToString();
+                                MessageBox.Show(bettor + " just got 100!");
+                                return;
+                        }
+                    }
                 }
             }
         }
