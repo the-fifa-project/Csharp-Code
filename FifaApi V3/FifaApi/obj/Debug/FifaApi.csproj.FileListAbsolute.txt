@@ -54,7 +54,6 @@ C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.cspro
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\Donit\Desktop\XAMPP\htdocs\project-fifa\FifaApi\obj\Debug\FifaApi.pdb
-<<<<<<< HEAD
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
@@ -69,7 +68,6 @@ D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CoreCompi
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
 D:\projectfifa\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
-=======
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.pdb
@@ -83,9 +81,6 @@ C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csha
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
-<<<<<<< HEAD
->>>>>>> master
-=======
 C:\Users\PieterV\Desktop\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.AddUser.resources
 C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe.config
 C:\Users\PieterV\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\bin\Debug\FifaApi.exe
@@ -115,4 +110,4 @@ C:\Users\piete\Desktop\School\OneDrive - ROC West-Brabant\School\Projecten\Leerj
 C:\Users\piete\Desktop\School\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.csproj.CopyComplete
 C:\Users\piete\Desktop\School\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.exe
 C:\Users\piete\Desktop\School\OneDrive - ROC West-Brabant\School\Projecten\Leerjaar 1\Periode 4\FIFA Project\Csharp-Code\FifaApi V3\FifaApi\obj\Debug\FifaApi.pdb
->>>>>>> Gokken
+

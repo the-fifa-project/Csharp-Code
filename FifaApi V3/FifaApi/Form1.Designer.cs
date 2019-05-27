@@ -38,9 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
-=======
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -58,7 +56,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.betOnTeam = new System.Windows.Forms.NumericUpDown();
             this.reloadMatchesButton = new System.Windows.Forms.Button();
->>>>>>> Gokken
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gamblingAmmountNumUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.betOnTeam)).BeginInit();
