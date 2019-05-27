@@ -38,6 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -85,8 +86,12 @@
             // idLabel
             // 
             this.idLabel.AutoSize = true;
+<<<<<<< HEAD
+            this.idLabel.Location = new System.Drawing.Point(445, 284);
+=======
             this.idLabel.Location = new System.Drawing.Point(253, 110);
             this.idLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+>>>>>>> Gokken
             this.idLabel.Name = "idLabel";
             this.idLabel.Size = new System.Drawing.Size(35, 13);
             this.idLabel.TabIndex = 3;
@@ -95,10 +100,15 @@
             // listBox
             // 
             this.listBox.FormattingEnabled = true;
+<<<<<<< HEAD
+            this.listBox.ItemHeight = 16;
+            this.listBox.Location = new System.Drawing.Point(99, 136);
+=======
             this.listBox.Location = new System.Drawing.Point(66, 110);
             this.listBox.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> Gokken
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(173, 30);
+            this.listBox.Size = new System.Drawing.Size(179, 148);
             this.listBox.TabIndex = 7;
             this.listBox.Click += new System.EventHandler(this.listBox_Click);
             // 
@@ -175,6 +185,17 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "loses:";
             // 
+<<<<<<< HEAD
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(421, 178);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+=======
             // label6
             // 
             this.label6.AutoSize = true;
@@ -356,11 +377,16 @@
             this.reloadMatchesButton.Text = "Reload";
             this.reloadMatchesButton.UseVisualStyleBackColor = true;
             this.reloadMatchesButton.Click += new System.EventHandler(this.reloadMatchesButton_Click);
+>>>>>>> Gokken
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(503, 310);
+            this.Controls.Add(this.button1);
+=======
             this.ClientSize = new System.Drawing.Size(694, 252);
             this.Controls.Add(this.reloadMatchesButton);
             this.Controls.Add(this.betOnTeam);
@@ -379,6 +405,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
+>>>>>>> Gokken
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -413,6 +440,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button button1;
+=======
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -430,6 +460,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.NumericUpDown betOnTeam;
         private System.Windows.Forms.Button reloadMatchesButton;
+>>>>>>> Gokken
     }
 }
 
