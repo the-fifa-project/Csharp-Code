@@ -30,39 +30,18 @@ namespace FifaApi
 
         private void getDataButton_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-
-            
-=======
             reloadTeams();
             reloadMatches();
         }
 
         public void reloadTeams()
         {
->>>>>>> Gokken
             listBox.Items.Clear();
             int input = (int)inputNumber.Value;
             // Bron: https://stackoverflow.com/a/4758334
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
 
-<<<<<<< HEAD
-            dataJson = downloader.DownloadString("http://localhost/Php-code/api/");
-            MessageBox.Show("http://localhost/Php-code/api/" + input.ToString());
-            Debug.WriteLine(dataJson);
-            Data[] data = JsonConvert.DeserializeObject<Data[]>(dataJson);
-            
-            //nameLabel.Text = "Team name: " + data[0].name;
-            //idLabel.Text = "" + data[0].id;
-
-            listBox.Items.Add("Name: " + data[0].name);
-            listBox.Items.Add("ID: " + data[0].id);
-            listBox.Items.Add("Goals: " + data[0].players);
-            listBox.Items.Add("Wins: " + data[0].wins);
-            listBox.Items.Add("Losses: " + data[0].loses);
-
-=======
             dataJson = downloader.DownloadString("http://localhost/the_fifa_project/Php-code/api/index.php?apikey=$2VAo@5JGt8%");
 
 
@@ -79,7 +58,6 @@ namespace FifaApi
             {
                 allMatchesListBox.Items.Add(team.name);
             }
->>>>>>> Gokken
         }
 
         public void reloadMatches()
