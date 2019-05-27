@@ -13,6 +13,5 @@ namespace FifaApi
         public string goals { get; set; }
         public string wins { get; set; }
         public string loses { get; set; }
-        public string players { get; set; }
     }
 }

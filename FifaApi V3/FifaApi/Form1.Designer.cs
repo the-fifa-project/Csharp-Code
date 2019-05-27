@@ -38,7 +38,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -46,19 +45,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.allMatchesListBox = new System.Windows.Forms.ListBox();
             this.gambleUserComboBox = new System.Windows.Forms.ComboBox();
-            this.gamblingAmmountNumUpDown = new System.Windows.Forms.NumericUpDown();
+            this.gamlingAmmountNumUpDown = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.gambleButton = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.currencyLabel = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.betOnTeam = new System.Windows.Forms.NumericUpDown();
-            this.reloadMatchesButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gamblingAmmountNumUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.betOnTeam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gamlingAmmountNumUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // getDataButton
@@ -86,12 +81,8 @@
             // idLabel
             // 
             this.idLabel.AutoSize = true;
-<<<<<<< HEAD
-            this.idLabel.Location = new System.Drawing.Point(445, 284);
-=======
-            this.idLabel.Location = new System.Drawing.Point(253, 110);
+            this.idLabel.Location = new System.Drawing.Point(331, 110);
             this.idLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
->>>>>>> Gokken
             this.idLabel.Name = "idLabel";
             this.idLabel.Size = new System.Drawing.Size(35, 13);
             this.idLabel.TabIndex = 3;
@@ -100,17 +91,11 @@
             // listBox
             // 
             this.listBox.FormattingEnabled = true;
-<<<<<<< HEAD
-            this.listBox.ItemHeight = 16;
-            this.listBox.Location = new System.Drawing.Point(99, 136);
-=======
             this.listBox.Location = new System.Drawing.Point(66, 110);
             this.listBox.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> Gokken
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(179, 148);
+            this.listBox.Size = new System.Drawing.Size(173, 30);
             this.listBox.TabIndex = 7;
-            this.listBox.Click += new System.EventHandler(this.listBox_Click);
             // 
             // inputNumber
             // 
@@ -185,17 +170,6 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "loses:";
             // 
-<<<<<<< HEAD
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(421, 178);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-=======
             // label6
             // 
             this.label6.AutoSize = true;
@@ -257,25 +231,20 @@
             // gambleUserComboBox
             // 
             this.gambleUserComboBox.FormattingEnabled = true;
-            this.gambleUserComboBox.Location = new System.Drawing.Point(393, 119);
+            this.gambleUserComboBox.Location = new System.Drawing.Point(391, 145);
             this.gambleUserComboBox.Name = "gambleUserComboBox";
             this.gambleUserComboBox.Size = new System.Drawing.Size(121, 21);
             this.gambleUserComboBox.TabIndex = 23;
             this.gambleUserComboBox.SelectedIndexChanged += new System.EventHandler(this.gambleUserComboBox_SelectedIndexChanged);
             this.gambleUserComboBox.Click += new System.EventHandler(this.gambleUserComboBox_Click);
             // 
-            // gamblingAmmountNumUpDown
+            // gamlingAmmountNumUpDown
             // 
-            this.gamblingAmmountNumUpDown.Location = new System.Drawing.Point(394, 146);
-            this.gamblingAmmountNumUpDown.Maximum = new decimal(new int[] {
-            99999,
-            0,
-            0,
-            0});
-            this.gamblingAmmountNumUpDown.Name = "gamblingAmmountNumUpDown";
-            this.gamblingAmmountNumUpDown.Size = new System.Drawing.Size(120, 20);
-            this.gamblingAmmountNumUpDown.TabIndex = 24;
-            this.gamblingAmmountNumUpDown.Value = new decimal(new int[] {
+            this.gamlingAmmountNumUpDown.Location = new System.Drawing.Point(394, 177);
+            this.gamlingAmmountNumUpDown.Name = "gamlingAmmountNumUpDown";
+            this.gamlingAmmountNumUpDown.Size = new System.Drawing.Size(120, 20);
+            this.gamlingAmmountNumUpDown.TabIndex = 24;
+            this.gamlingAmmountNumUpDown.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -293,7 +262,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(334, 127);
+            this.label11.Location = new System.Drawing.Point(336, 153);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(49, 13);
             this.label11.TabIndex = 26;
@@ -302,7 +271,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(334, 148);
+            this.label12.Location = new System.Drawing.Point(334, 179);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(54, 13);
             this.label12.TabIndex = 27;
@@ -316,7 +285,6 @@
             this.gambleButton.TabIndex = 28;
             this.gambleButton.Text = "Gamble!";
             this.gambleButton.UseVisualStyleBackColor = true;
-            this.gambleButton.Click += new System.EventHandler(this.gambleButton_Click_1);
             // 
             // label13
             // 
@@ -337,67 +305,18 @@
             this.currencyLabel.TabIndex = 30;
             this.currencyLabel.Text = "0";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(337, 178);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(37, 13);
-            this.label14.TabIndex = 31;
-            this.label14.Text = "Team:";
-            // 
-            // betOnTeam
-            // 
-            this.betOnTeam.Location = new System.Drawing.Point(392, 176);
-            this.betOnTeam.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.betOnTeam.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.betOnTeam.Name = "betOnTeam";
-            this.betOnTeam.Size = new System.Drawing.Size(120, 20);
-            this.betOnTeam.TabIndex = 32;
-            this.betOnTeam.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // reloadMatchesButton
-            // 
-            this.reloadMatchesButton.Location = new System.Drawing.Point(607, 37);
-            this.reloadMatchesButton.Name = "reloadMatchesButton";
-            this.reloadMatchesButton.Size = new System.Drawing.Size(75, 23);
-            this.reloadMatchesButton.TabIndex = 33;
-            this.reloadMatchesButton.Text = "Reload";
-            this.reloadMatchesButton.UseVisualStyleBackColor = true;
-            this.reloadMatchesButton.Click += new System.EventHandler(this.reloadMatchesButton_Click);
->>>>>>> Gokken
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(503, 310);
-            this.Controls.Add(this.button1);
-=======
             this.ClientSize = new System.Drawing.Size(694, 252);
-            this.Controls.Add(this.reloadMatchesButton);
-            this.Controls.Add(this.betOnTeam);
-            this.Controls.Add(this.label14);
             this.Controls.Add(this.currencyLabel);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.gambleButton);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.gamblingAmmountNumUpDown);
+            this.Controls.Add(this.gamlingAmmountNumUpDown);
             this.Controls.Add(this.gambleUserComboBox);
             this.Controls.Add(this.allMatchesListBox);
             this.Controls.Add(this.label9);
@@ -405,7 +324,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
->>>>>>> Gokken
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -421,8 +339,7 @@
             this.Text = "FIFA GAMBLE APPLICATION";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inputNumber)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gamblingAmmountNumUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.betOnTeam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gamlingAmmountNumUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -440,9 +357,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-<<<<<<< HEAD
-        private System.Windows.Forms.Button button1;
-=======
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -450,17 +364,13 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ListBox allMatchesListBox;
         private System.Windows.Forms.ComboBox gambleUserComboBox;
-        private System.Windows.Forms.NumericUpDown gamblingAmmountNumUpDown;
+        private System.Windows.Forms.NumericUpDown gamlingAmmountNumUpDown;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button gambleButton;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label currencyLabel;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.NumericUpDown betOnTeam;
-        private System.Windows.Forms.Button reloadMatchesButton;
->>>>>>> Gokken
     }
 }
 
