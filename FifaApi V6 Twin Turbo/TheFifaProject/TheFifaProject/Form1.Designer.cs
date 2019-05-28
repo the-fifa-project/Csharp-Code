@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.overviewGroupBox = new System.Windows.Forms.GroupBox();
-            this.showPlayersButton = new System.Windows.Forms.Button();
-            this.showGamesButton = new System.Windows.Forms.Button();
-            this.addGamblerButton = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.showTeamsButton = new System.Windows.Forms.Button();
+            this.showGamesButton = new System.Windows.Forms.Button();
+            this.showPlayersButton = new System.Windows.Forms.Button();
+            this.addGamblerButton = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.gamblerConfirmWagerButton = new System.Windows.Forms.Button();
             this.gamblerWagerUpDoewn = new System.Windows.Forms.NumericUpDown();
@@ -43,7 +44,6 @@
             this.gamblerNameLabel = new System.Windows.Forms.Label();
             this.gamblerWagerLabel = new System.Windows.Forms.Label();
             this.selectGamblerComboBox = new System.Windows.Forms.ComboBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.overviewGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gamblerWagerUpDoewn)).BeginInit();
             this.SuspendLayout();
@@ -61,14 +61,23 @@
             this.overviewGroupBox.TabStop = false;
             this.overviewGroupBox.Text = "Toernooi Overview";
             // 
-            // showPlayersButton
+            // listBox1
             // 
-            this.showPlayersButton.Location = new System.Drawing.Point(6, 21);
-            this.showPlayersButton.Name = "showPlayersButton";
-            this.showPlayersButton.Size = new System.Drawing.Size(114, 49);
-            this.showPlayersButton.TabIndex = 1;
-            this.showPlayersButton.Text = "Spelers";
-            this.showPlayersButton.UseVisualStyleBackColor = true;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(7, 89);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(353, 308);
+            this.listBox1.TabIndex = 5;
+            // 
+            // showTeamsButton
+            // 
+            this.showTeamsButton.Location = new System.Drawing.Point(246, 21);
+            this.showTeamsButton.Name = "showTeamsButton";
+            this.showTeamsButton.Size = new System.Drawing.Size(114, 49);
+            this.showTeamsButton.TabIndex = 4;
+            this.showTeamsButton.Text = "Teams";
+            this.showTeamsButton.UseVisualStyleBackColor = true;
             // 
             // showGamesButton
             // 
@@ -79,6 +88,15 @@
             this.showGamesButton.Text = "Wedstrijden";
             this.showGamesButton.UseVisualStyleBackColor = true;
             // 
+            // showPlayersButton
+            // 
+            this.showPlayersButton.Location = new System.Drawing.Point(6, 21);
+            this.showPlayersButton.Name = "showPlayersButton";
+            this.showPlayersButton.Size = new System.Drawing.Size(114, 49);
+            this.showPlayersButton.TabIndex = 1;
+            this.showPlayersButton.Text = "Spelers";
+            this.showPlayersButton.UseVisualStyleBackColor = true;
+            // 
             // addGamblerButton
             // 
             this.addGamblerButton.Location = new System.Drawing.Point(403, 33);
@@ -87,15 +105,6 @@
             this.addGamblerButton.TabIndex = 3;
             this.addGamblerButton.Text = "Gokker Toevoegen";
             this.addGamblerButton.UseVisualStyleBackColor = true;
-            // 
-            // showTeamsButton
-            // 
-            this.showTeamsButton.Location = new System.Drawing.Point(246, 21);
-            this.showTeamsButton.Name = "showTeamsButton";
-            this.showTeamsButton.Size = new System.Drawing.Size(114, 49);
-            this.showTeamsButton.TabIndex = 4;
-            this.showTeamsButton.Text = "Teams";
-            this.showTeamsButton.UseVisualStyleBackColor = true;
             // 
             // gamblerConfirmWagerButton
             // 
@@ -126,18 +135,18 @@
             this.gamblerTeamLabel.AutoSize = true;
             this.gamblerTeamLabel.Location = new System.Drawing.Point(400, 261);
             this.gamblerTeamLabel.Name = "gamblerTeamLabel";
-            this.gamblerTeamLabel.Size = new System.Drawing.Size(46, 17);
+            this.gamblerTeamLabel.Size = new System.Drawing.Size(44, 17);
             this.gamblerTeamLabel.TabIndex = 7;
-            this.gamblerTeamLabel.Text = "label1";
+            this.gamblerTeamLabel.Text = "Team";
             // 
             // gamblerAmountLabel
             // 
             this.gamblerAmountLabel.AutoSize = true;
             this.gamblerAmountLabel.Location = new System.Drawing.Point(400, 232);
             this.gamblerAmountLabel.Name = "gamblerAmountLabel";
-            this.gamblerAmountLabel.Size = new System.Drawing.Size(46, 17);
+            this.gamblerAmountLabel.Size = new System.Drawing.Size(38, 17);
             this.gamblerAmountLabel.TabIndex = 8;
-            this.gamblerAmountLabel.Text = "label2";
+            this.gamblerAmountLabel.Text = "Inzet";
             // 
             // gamblerHeaderLabel
             // 
@@ -175,15 +184,6 @@
             this.selectGamblerComboBox.Size = new System.Drawing.Size(130, 24);
             this.selectGamblerComboBox.TabIndex = 12;
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(7, 89);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(353, 308);
-            this.listBox1.TabIndex = 5;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -201,7 +201,7 @@
             this.Controls.Add(this.overviewGroupBox);
             this.Controls.Add(this.addGamblerButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Fifa Gok Applicatie";
             this.overviewGroupBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gamblerWagerUpDoewn)).EndInit();
             this.ResumeLayout(false);
