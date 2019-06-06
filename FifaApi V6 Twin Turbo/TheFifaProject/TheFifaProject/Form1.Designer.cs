@@ -40,7 +40,7 @@
             this.gamblerAmountLabel = new System.Windows.Forms.Label();
             this.gamblerHeaderLabel = new System.Windows.Forms.Label();
             this.gamblerNameLabel = new System.Windows.Forms.Label();
-            this.gamblerWagerLabel = new System.Windows.Forms.Label();
+            this.gamblerCurrencyLabel = new System.Windows.Forms.Label();
             this.selectGamblerComboBox = new System.Windows.Forms.ComboBox();
             this.teamOneScoreUpDown = new System.Windows.Forms.NumericUpDown();
             this.payoutComboBox = new System.Windows.Forms.ComboBox();
@@ -180,15 +180,15 @@
             this.gamblerNameLabel.TabIndex = 10;
             this.gamblerNameLabel.Text = "Speler naam: ";
             // 
-            // gamblerWagerLabel
+            // gamblerCurrencyLabel
             // 
-            this.gamblerWagerLabel.AutoSize = true;
-            this.gamblerWagerLabel.Location = new System.Drawing.Point(395, 82);
-            this.gamblerWagerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.gamblerWagerLabel.Name = "gamblerWagerLabel";
-            this.gamblerWagerLabel.Size = new System.Drawing.Size(30, 13);
-            this.gamblerWagerLabel.TabIndex = 11;
-            this.gamblerWagerLabel.Text = "Inzet";
+            this.gamblerCurrencyLabel.AutoSize = true;
+            this.gamblerCurrencyLabel.Location = new System.Drawing.Point(395, 82);
+            this.gamblerCurrencyLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gamblerCurrencyLabel.Name = "gamblerCurrencyLabel";
+            this.gamblerCurrencyLabel.Size = new System.Drawing.Size(30, 13);
+            this.gamblerCurrencyLabel.TabIndex = 11;
+            this.gamblerCurrencyLabel.Text = "Inzet";
             // 
             // selectGamblerComboBox
             // 
@@ -242,6 +242,7 @@
             this.payoutButton.TabIndex = 17;
             this.payoutButton.Text = "Uitbetalen";
             this.payoutButton.UseVisualStyleBackColor = true;
+            this.payoutButton.Click += new System.EventHandler(this.payoutButton_Click);
             // 
             // betHistoryListBox
             // 
@@ -263,7 +264,7 @@
             this.Controls.Add(this.payoutComboBox);
             this.Controls.Add(this.teamOneScoreUpDown);
             this.Controls.Add(this.selectGamblerComboBox);
-            this.Controls.Add(this.gamblerWagerLabel);
+            this.Controls.Add(this.gamblerCurrencyLabel);
             this.Controls.Add(this.gamblerNameLabel);
             this.Controls.Add(this.gamblerHeaderLabel);
             this.Controls.Add(this.gamblerAmountLabel);
@@ -301,7 +302,7 @@
         private System.Windows.Forms.Label gamblerAmountLabel;
         private System.Windows.Forms.Label gamblerHeaderLabel;
         private System.Windows.Forms.Label gamblerNameLabel;
-        private System.Windows.Forms.Label gamblerWagerLabel;
+        private System.Windows.Forms.Label gamblerCurrencyLabel;
         private System.Windows.Forms.ComboBox selectGamblerComboBox;
         private System.Windows.Forms.NumericUpDown teamOneScoreUpDown;
         private System.Windows.Forms.ComboBox payoutComboBox;
