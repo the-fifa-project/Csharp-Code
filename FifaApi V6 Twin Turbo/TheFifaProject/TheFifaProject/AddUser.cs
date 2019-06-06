@@ -19,7 +19,18 @@ namespace TheFifaProject
 
         private void addGamblerButton_Click(object sender, EventArgs e)
         {
-            
+            Gamblers gambler = new Gamblers();
+            gambler.Currency = 100;
+            gambler.Name = gamblerNameTextBox.Text;
+
+            Program.gamblers.Add(gambler);
+            MessageBox.Show("Gokker toegevoegd!");
+
+            Close();
+        }
+
+        private void AddUser_Load(object sender, EventArgs e)
+        {
         }
     }
 }

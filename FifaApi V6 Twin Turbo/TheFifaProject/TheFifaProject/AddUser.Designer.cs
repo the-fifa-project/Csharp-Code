@@ -81,6 +81,7 @@
             this.Controls.Add(this.addGablerHead);
             this.Name = "AddUser";
             this.Text = "AddUser";
+            this.Load += new System.EventHandler(this.AddUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace TheFifaProject
 {
-    class Gamblers
+    class Bets
     {
-        public string Name { get; set; }
-
-        public int Currency { get; set; }
-
-        public Gamblers(int currency, string name)
-        {
-            Name = name;
-            Currency = currency;
-        }
+        public int betAmount { get; set; }
+        public int matchID { get; set; }
+        public int winningteam { get; set; }
+        public int scoreTeamOne { get; set; }
+        public int scoreTeamTwo { get; set; }
+        public string type { get; set; }
+        public int gamblerID { get; set; }
+        public string winningTeamName { get; set; }
+        public string gamblerName { get; set; }
 
         //source: https://stackoverflow.com/questions/9262221/c-sharp-class-auto-increment-id
 
@@ -25,7 +25,7 @@ namespace TheFifaProject
 
         public int ID { get; private set; }
 
-        public Gamblers()
+        public Bets()
         {
 
             lock (Lock)
@@ -65,4 +65,3 @@ namespace TheFifaProject
         }
     }
 }
-
