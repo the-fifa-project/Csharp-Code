@@ -78,7 +78,7 @@ namespace TheFifaProject
             System.Net.WebClient downloader = new System.Net.WebClient();
             string dataJson;
 
-            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/api/index.php?apikey=Rz7^8p2%4VYk");
+            dataJson = downloader.DownloadString("http://localhost/the_fifa_project/Php-code/api/index.php?apikey=Rz7^8p2%4VYk");
 
             MatchData[] matchDatas = JsonConvert.DeserializeObject<MatchData[]>(dataJson);
 
