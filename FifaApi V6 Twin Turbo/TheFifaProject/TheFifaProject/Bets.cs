@@ -52,7 +52,7 @@ namespace TheFifaProject
 
         private int GetAvailableIndex()
         {
-            for (int i = 0; i < UsedCounter.Count; i++)
+            for (int i = 1; i < UsedCounter.Count; i++)
             {
                 if (UsedCounter[i] == false)
                 {
